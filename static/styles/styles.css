@@ -4616,7 +4616,8 @@ ul.b-sidebar {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.7);
     transition: all .4s ease;
-    position: relative; }
+    position: relative;
+    margin-bottom: 10px; }
     .b-divider.m-next h5:after {
       font-family: 'Material Icons';
       font-weight: normal;
