@@ -4735,6 +4735,17 @@ ul.b-sidebar {
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); }
   .grid .e-card.impact-citizens .e-card-inner {
     background-color: #ee5b43; }
+  .grid .e-card.impact-comming-soon .e-case-image {
+    background-color: #ee5b43;
+    text-align: center; }
+    .grid .e-card.impact-comming-soon .e-case-image i {
+      top: 50%;
+      margin-top: -40px;
+      font-size: 80px;
+      line-height: 80px;
+      position: relative; }
+  .grid .e-card.impact-comming-soon .e-card-inner {
+    background-color: #be4936; }
   .grid .e-card.impact-government .e-card-inner {
     background-color: #008ab3; }
   .grid .e-card.impact-economic .e-card-inner {
@@ -5011,10 +5022,12 @@ p, td, a {
           font-size: 60px;
           font-weight: 100; } }
     #case-study-page .b-top-section .e-titles .e-tagline {
-      font-size: 1.1rem; }
+      font-size: 1.1rem;
+      font-weight: 200; }
       @media screen and (min-width: 64.0625em) {
         #case-study-page .b-top-section .e-titles .e-tagline {
-          font-size: 30px; } }
+          font-size: 30px;
+          font-weight: 100; } }
     #case-study-page .b-top-section .e-titles h4 {
       font-size: 0.85rem; }
       @media screen and (min-width: 64.0625em) {
