@@ -5113,7 +5113,11 @@ p, td, a {
       .b-copyright .logos:first-child {
         text-align: center; }
       .b-copyright .logos:last-child {
-        text-align: right; } }
+        text-align: right; }
+        .b-copyright .logos:last-child > div {
+          text-align: left; } }
+    .b-copyright .logos > div {
+      text-align: center; }
   .b-copyright .e-partner-logo {
     text-align: center; }
     .b-copyright .e-partner-logo.small > img {
