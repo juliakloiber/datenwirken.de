@@ -4938,7 +4938,6 @@ p, td, a {
 #case-study-page .e-titles,
 #open-data-impact-homepage .e-titles {
   position: absolute;
-  bottom: 60px;
   width: 100%;
   padding: 20px; }
   #case-study-page .e-titles h3 span,
@@ -5040,14 +5039,14 @@ p, td, a {
     margin: 0; }
   #case-study-page .e-tags .e-left {
     float: left;
-    width: 30%;
+    width: 45%;
     text-align: right;
     padding: 10px;
     font-weight: 600;
     text-transform: uppercase; }
   #case-study-page .e-tags .e-right {
     float: right;
-    width: 70%;
+    width: 55%;
     text-align: left;
     padding: 10px; }
 #case-study-page .e-read-times {
