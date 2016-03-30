@@ -4599,33 +4599,25 @@ ul.b-sidebar {
     right: 0;
     top: 0; }
 
-.b-divider div {
-  max-width: 95%; }
+.b-divider.no-padding {
+  padding: 0; }
+.b-divider.small-padding {
+  padding: 10px 0; }
 .b-divider.m-next {
-  position: relative; }
-  .b-divider.m-next div {
-    max-width: 500px;
-    position: absolute;
-    right: 100px;
-    top: 30px; }
-    .b-divider.m-next div * {
-      vertical-align: middle;
-      text-align: left; }
-    .b-divider.m-next div h1, .b-divider.m-next div h2 {
-      margin-left: 10px; }
-    .b-divider.m-next div h1 {
-      text-transform: uppercase;
-      font-size: 17px;
-      font-weight: 600;
-      color: rgba(255, 255, 255, 0.3); }
-    .b-divider.m-next div h2 {
-      text-transform: none;
-      font-size: 20px;
-      font-weight: 400;
-      color: rgba(255, 255, 255, 0.7);
-      text-transform: uppercase;
-      transition: all .4s ease; }
-    .b-divider.m-next div h2::after {
+  background-color: #008ab3; }
+  .b-divider.m-next h4, .b-divider.m-next h5 {
+    text-transform: uppercase;
+    margin-right: 35px; }
+  .b-divider.m-next h4 {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 17px;
+    font-weight: 400; }
+  .b-divider.m-next h5 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all .4s ease;
+    position: relative; }
+    .b-divider.m-next h5:after {
       font-family: 'Material Icons';
       font-weight: normal;
       font-style: normal;
@@ -4641,17 +4633,26 @@ ul.b-sidebar {
       -webkit-font-smoothing: antialiased;
       content: 'chevron_right';
       font-size: 35px;
-      padding-bottom: 4px;
-      color: rgba(255, 255, 255, 0.3);
-      vertical-align: middle; }
-    .b-divider.m-next div a:hover {
-      text-decoration: none; }
-      .b-divider.m-next div a:hover h2 {
-        color: white;
-        transition: all .4s ease; }
+      position: absolute;
+      right: -35px;
+      top: 50%;
+      margin-top: -17.5px; }
+  .b-divider.m-next a {
+    text-decoration: none; }
+    .b-divider.m-next a:hover h5 {
+      color: white;
+      transition: all .4s ease; }
 .b-divider.m-yellow, .b-divider.m-economic {
   background-color: #C2C33B; }
 .b-divider.m-fuschia, .b-divider.m-public {
+  background-color: #AD0054; }
+.b-divider.impact-citizens {
+  background-color: #ee5b43; }
+.b-divider.impact-government {
+  background-color: #008ab3; }
+.b-divider.impact-economic {
+  background-color: #C2C33B; }
+.b-divider.impact-public {
   background-color: #AD0054; }
 
 .b-sticky {
@@ -4735,27 +4736,25 @@ ul.b-sidebar {
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); }
   .grid .e-card.impact-citizens .e-card-inner {
     background-color: #ee5b43; }
-  .grid .e-card.impact-comming-soon .e-case-image {
-    background-color: #ee5b43;
-    text-align: center; }
-    .grid .e-card.impact-comming-soon .e-case-image i {
-      top: 50%;
-      margin-top: -40px;
-      font-size: 80px;
-      line-height: 80px;
-      position: relative; }
-  .grid .e-card.impact-comming-soon .e-card-inner {
-    background-color: #be4936; }
   .grid .e-card.impact-government .e-card-inner {
     background-color: #008ab3; }
   .grid .e-card.impact-economic .e-card-inner {
     background-color: #C2C33B; }
   .grid .e-card.impact-public .e-card-inner {
     background-color: #AD0054; }
-  .grid .e-card.m-unreleased .e-card-inner {
-    background-color: rgba(0, 0, 0, 0.3); }
-    .grid .e-card.m-unreleased .e-card-inner:hover {
-      box-shadow: none; }
+  .grid .e-card.impact-comming-soon .e-case-image, .grid .e-card.m-unreleased .e-case-image {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center; }
+    .grid .e-card.impact-comming-soon .e-case-image i, .grid .e-card.m-unreleased .e-case-image i {
+      top: 50%;
+      margin-top: -40px;
+      font-size: 80px;
+      line-height: 80px;
+      position: relative; }
+  .grid .e-card.impact-comming-soon .e-card-inner, .grid .e-card.m-unreleased .e-card-inner {
+    background-color: rgba(0, 0, 0, 0.4); }
+  .grid .e-card.impact-comming-soon:hover, .grid .e-card.m-unreleased:hover {
+    box-shadow: none; }
   .grid a:hover {
     text-decoration: none; }
 
